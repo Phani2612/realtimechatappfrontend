@@ -4,14 +4,7 @@ import Axios from 'axios'
 import Chat from './Chat';
 import './App.css'
 
-const socket = io('https://realtimechat-1qxg.onrender.com',{
-
-auth: {
-  serverOffset: 0
-},
-ackTimeout: 10000,
-retries: 3,
-});
+const socket = io('https://realtimechat-1qxg.onrender.com');
 
 function MyComponent() {
   // useEffect(() => {
