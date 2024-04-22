@@ -1,0 +1,252 @@
+/* MyComponent.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* App.css */
+
+/* Chat Container */
+
+
+
+
+
+
+/* App.css */
+
+/* Chat container */
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Chat header */
+.chat-header {
+  background-color: #075e54;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Chat body */
+.chat-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Message container */
+.message-container {
+  margin-bottom: 15px;
+  
+}
+
+
+
+.message-info{
+
+    color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+
+/* Message content */
+.message-content {
+  background-color: #dcf8c6;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+
+
+
+}
+
+
+
+/* App.css */
+
+/* Received message content */
+#other .message-content {
+  background-color: whitesmoke; /* Change this color to your preference */
+ 
+}
+
+
+/* Chat footer */
+.chat-footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+/* Message input */
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Send button */
+.send-button {
+  background-color: #075e54;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.send-button:hover {
+  background-color: #128c7e;
+}
+
+
+/* App.css */
+
+/* Sent message container */
+#you .message-container {
+  align-self: flex-end;
+}
+
+/* Sent message content */
+#you .message-content {
+  background-color: #dcf8c6; /* Background color for sent messages */
+  border-top-right-radius: 0; /* Adjust border radius for sent messages */
+  margin-left: 100px;
+  width: 220px;
+  height: auto;
+  padding: 15px;
+  overflow-wrap: break-word;
+}
+
+
+
+/* Received message container */
+#other .message-container {
+  align-self: flex-start;
+}
+
+/* Received message content */
+#other .message-content {
+  background-color: #e0e0e0; /* Background color for received messages */
+  border-top-left-radius: 0; /* Adjust border radius for received messages */
+  width: 220px;
+  height: auto;
+  padding: 15px;
+  overflow-wrap: break-word;
+}
+
+/* Message container */
+.message-container {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Message info */
+
+
+/* Message content */
+.message-content {
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 70%;
+  box-sizing: border-box;
+}
+
+#you .message-info{
+
+    
+     margin-left: 250px;
+     
+}
+
+
+#you .author{
+
+     padding-right: 10px;
+}
+
+
+#other .message-info{
+
+    
+}
+
+#other .author{
+
+  padding-right: 10px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+
+
+
+
+
+.custom-scroll-container {
+  /* Set a fixed height for the container */
+   
+  height: 500px;
+
+  /* Enable vertical scrolling */
+  overflow-y: auto;
+
+  
+}
